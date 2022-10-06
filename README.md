@@ -5,13 +5,11 @@ This is an basic daily planner. Depending on the time of the day the time-slots 
 
 ## User Story
 AS AN employee with a busy schedule
-
 I WANT to add important events to a daily planner
-
 SO THAT I can manage my time effectively
 
 ## Acceptance Citeria
-GIVEN I am using a daily planner to create a schedule
+GIVEN I am using a daily planner to create a schedule\
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
 WHEN I scroll down
@@ -26,6 +24,6 @@ WHEN I refresh the page
 THEN the saved events persist
 
 ## ScreenShot
-![Screenshot](./assets/imgs/Dayplanner.PNG)  
+![Screenshot](./assets/imgs/Dayplanner.PNG  
 
 ## URL
