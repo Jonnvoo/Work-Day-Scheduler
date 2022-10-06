@@ -1,5 +1,5 @@
 
- // This displays the current date on the header
+ // This displays the current date on the header. Also, formatted in moment
 var current = moment().format(" dddd MMMM D, YYYY ")
 $("#currentDay").text(current)
 // This is where we set up the save button also it is where we store the time and description
@@ -8,10 +8,6 @@ $(".saveBtn").click(function (event) {
     var plan = $(this).siblings(".description").val();
     var time = $(this).parent().attr("id").split("-")[1];
     localStorage.setItem(time, plan);
-
-
-
-
 });
 
 // This calculates the current time in military time 
@@ -35,9 +31,6 @@ $(".timeZone").each(function () {
         $(this).addClass("future");
     }
 });
-
-
-
 
 // This is how we get our local storage to the page in the text boxes
 $("#hour-09 .description").val(localStorage.getItem("09"));
