@@ -5,7 +5,9 @@ This is an basic daily planner. Depending on the time of the day the time-slots 
 
 ## User Story
 AS AN employee with a busy schedule
+
 I WANT to add important events to a daily planner
+
 SO THAT I can manage my time effectively
 
 ## Acceptance Citeria
